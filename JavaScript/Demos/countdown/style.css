@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #221596, #410743);
+  color: white;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.countdown h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container input {
+  text-align: center;
+  background: whitesmoke;
+  border-radius: 5rem;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#timerDisplay {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.start-stop button {
+  text-align: center;
+  background: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 1rem;
+}

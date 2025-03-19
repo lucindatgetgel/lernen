@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passwort Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="title">
+        <h1>Generiere ein <br /><span>zufälliges Passwort</span></h1>
+      </header>
+
+      <!-- Password Input Section -->
+      <main>
+        <div class="password">
+          <div class="input-container">
+            <textarea id="textarea" placeholder="Passwort"></textarea>
+            <img src="images/copy.png" alt="kopieren" class="copy-icon" />
+          </div>
+          <!-- Nachricht für das Kopieren des Passworts - ist noch leer, Text wird via JS eingefügt -->
+        </div>
+        <div id="copyMessage" class="copy-message"></div>
+
+        <!-- Generate Button Section -->
+        <div class="generate-container">
+          <button class="btn">
+            <img src="images/generate.png" alt="generieren" class="btn-icon" />
+            <p>Passwort generieren</p>
+          </button>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

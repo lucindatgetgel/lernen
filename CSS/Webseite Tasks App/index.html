@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucinda Tgetgel</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="#">Lucinda <span>Tgetgel</span></a>
+
+        <img
+          id="mobile-cta"
+          class="mobile-menu"
+          src="images/menu.svg"
+          alt="open navigation"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src="images/exit.svg"
+            alt="close navigation"
+          />
+          <ul class="primary-nav">
+            <li><a href="#">Über mich</a></li>
+            <li><a href="#">Projekte</a></li>
+            <!-- <li><a href="#">Kontakt</a></li> -->
+          </ul>
+
+          <ul class="secondary-nav">
+            <li><a href="#">Kontakt</a></li>
+            <li class="go-premium-cta"><a href="#">Jetzt anrufen!</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">It's Nitty &amp; Gritty</p>
+          <h1>A Task App That Doesn't Stink</h1>
+          <div class="hero-cta">
+            <a href="#" class="primary-cta">Try for free</a>
+            <a href="#" class="watch-video-cta">
+              <img src="images/watch.svg" alt="Watch a video" />
+              Watch a video</a
+            >
+          </div>
+        </div>
+        <img
+          src="images/illustration.svg"
+          class="hero-img"
+          alt="Illustration"
+        />
+      </div>
+    </section>
+    <section class="features-section">
+      <div class="container">
+        <ul class="features-list">
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+          <li>List Item 5</li>
+          <li>List Item 6</li>
+        </ul>
+
+        <img src="images/holding-phone.jpg" alt="Person holding phone" />
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="images/person.jpg" alt="Person" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut l"
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="images/person.jpg" alt="Person" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut l"
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+          <li>
+            <img src="images/person.jpg" alt="Person" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut l"
+            </blockquote>
+            <cite>- Jane Doe</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-left">
+          <h2>Contact</h2>
+
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input
+              type="submit"
+              class="send-message-cta"
+              value="Send message"
+            />
+          </form>
+        </div>
+        <div class="contact-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.533583569495!2d9.52815207730479!3d46.85287093972023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4784c764b525ba49%3A0x9204d6f12f041745!2sCode%20Crush%20GmbH!5e0!3m2!1sde!2sch!4v1736955392535!5m2!1sde!2sch"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const mobileBtn = document.getElementById("mobile-cta");
+      nav = document.querySelector("nav");
+      mobileBtnExit = document.getElementById("mobile-exit");
+
+      mobileBtn.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+      mobileBtnExit.addEventListener("click", () => {
+        nav.classList.add("menu-btn");
+      });
+    </script>
+  </body>
+</html>

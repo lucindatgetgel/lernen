@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <a href="/">Lucinda Tgetgel</a>
+      </div>
+
+      <div class="right">
+        <a href="http://github.com" target="_blank"
+          ><i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/lucinda-tgetgel/?originalSubdomain=ch"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="mailto:lucindatgetgel@gmail.com"
+          ><i class="fa-solid fa-envelope"></i>
+          <span>E-Mail</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!-- Section 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hey, ich bin Lucinda 👋🏽</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eos
+            facilis autem earum laboriosam provident perferendis, maiores
+            delectus numquam iste consequuntur corporis natus labore cumque modi
+            impedit quam, dignissimos, repellendus a sapiente! Laboriosam alias
+            quae temporibus et. Perspiciatis minima fuga libero vero laborum
+            quibusdam voluptates vel, sunt, corporis, animi voluptas!
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimonails">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimonials</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Kontakt</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img
+            id="headshot"
+            src="images/lucinda-tgetgel.webp"
+            alt="Portraitfoto Lucinda Tgetgel"
+          />
+        </div>
+      </section>
+
+      <!-- Section 2: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Meine Skills</h2>
+        <div class="text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit iusto
+          dolorum placeat rerum assumenda et perferendis voluptate enim minima
+          ratione tempora, error dolorem voluptates quod expedita! Eligendi odit
+          quod architecto?
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html.webp" alt="HTML Logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css.png" alt="CSS Logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/js.png" alt="Java Script Logo" />
+            <span>Java Script</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Testimonial -->
+      <section id="testimonial" class="testimonial-section">
+        <h2>Testimonials</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="images/lucinda-tgetgel.webp" alt="Lucinda Tgetgel" />
+            <p>Max Mustermann</p>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+          <div class="text">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            possimus doloribus dolorem ab pariatur maxime velit nisi porro eaque
+            fugit rem reiciendis perspiciatis similique ex, magnam numquam
+            consectetur sint tempore! Ducimus, iure nisi nam minus consequuntur,
+            et dignissimos porro ut qui saepe modi amet dolore enim velit
+            repellendus facere ratione?"
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Kontakt</h2>
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            quis totam dolorum assumenda dolorem culpa commodi accusantium.
+            Sapiente quas ea corporis dolores repellendus voluptatum modi
+            voluptatibus necessitatibus, in natus nisi vel eum nobis iusto
+            dolorem, labore praesentium minus sunt voluptates laboriosam illo
+            quis explicabo eaque eos. Facilis et earum nam.
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" />
+
+            <label for="email">E-Mail</label>
+            <input type="email" id="name" placeholder="E-Mail" />
+
+            <label for="nachricht">Nachricht</label>
+            <textarea
+              id="nachricht"
+              cols="30"
+              rows="10"
+              placeholder="Deine Nachricht..."
+            ></textarea>
+
+            <button type="submit">Absenden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

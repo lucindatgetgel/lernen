@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown ⏳</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Countdown-Timer ⏳</h1>
+      <div class="countdown">
+        <input
+          type="number"
+          id="minutes"
+          min="1"
+          placeholder="Zeit in Minuten"
+        />
+        <p id="timerDisplay">00:00</p>
+        <!-- ID korrigiert -->
+        <div class="start-stop">
+          <button id="startbtn">Start</button>
+          <button id="stopbtn">Stop</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

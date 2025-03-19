@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background: #001e4d;
+  color: #001e4d;
+}
+.app {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  margin: 10rem auto 0;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+.app h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.quiz hr {
+  border: none;
+  height: 1px; /* Dicke der Linie */
+  background-color: #001e4d;
+  margin-bottom: 1rem;
+}
+
+.quiz #answer-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  background: transparent;
+  text-align: left;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: solid 2px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #001e4d;
+  color: white;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+.next {
+  display: flex;
+  justify-content: center;
+}
+
+#next-btn {
+  display: block;
+  background: #001e4d;
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+#next-btn:hover {
+  background: #163b76;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
